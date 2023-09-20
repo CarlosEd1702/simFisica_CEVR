@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaLuna/cmake-build-debug-visual-studio/CMakeFiles/holaLuna.dir/embed.manifest"

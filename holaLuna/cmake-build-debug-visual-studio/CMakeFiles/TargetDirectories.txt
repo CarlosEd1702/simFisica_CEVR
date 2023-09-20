@@ -1,0 +1,3 @@
+C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaLuna/cmake-build-debug-visual-studio/CMakeFiles/holaLuna.dir
+C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaLuna/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaLuna/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
