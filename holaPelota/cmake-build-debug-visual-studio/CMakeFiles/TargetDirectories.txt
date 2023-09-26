@@ -1,0 +1,3 @@
+C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaPelota/cmake-build-debug-visual-studio/CMakeFiles/holaPelota.dir
+C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaPelota/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/Alumnos/CLionProjects/Simuladores de Fisica en Tiempo Real/holaPelota/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
