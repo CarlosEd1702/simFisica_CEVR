@@ -1,0 +1,11 @@
+C:\Users\cavi1\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/cavi1/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_TOOLCHAIN_FILE=D:\JettBrains\CLion\VCPKG\scripts\buildsystems\vcpkg.cmake -G Ninja -S D:\JettBrains\CLion\Proyecto2doParcialSimuladores -B D:\JettBrains\CLion\Proyecto2doParcialSimuladores\cmake-build-debug
+-- Found SFML 2.6.0 in D:/JettBrains/CLion/VCPKG/installed/x64-windows/share/sfml
+-- Configuring done (2.1s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: D:/JettBrains/CLion/Proyecto2doParcialSimuladores/cmake-build-debug

@@ -1,0 +1,3 @@
+D:/JettBrains/CLion/Proyecto2doParcialSimuladores/cmake-build-debug/CMakeFiles/Proyecto2doParcialSimuladores.dir
+D:/JettBrains/CLion/Proyecto2doParcialSimuladores/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/JettBrains/CLion/Proyecto2doParcialSimuladores/cmake-build-debug/CMakeFiles/rebuild_cache.dir
