@@ -1,17 +1,19 @@
 #include <iostream>
 #include <Box2D/Box2D.h>
 #include <Box2D/b2_time_of_impact.h>
+#include <Box2D/b2_wheel_joint.h>
 #include <SFML/Graphics.hpp>
 
 constexpr float SCALE = 30.0f;
 
 class Ball {
 public:
-    Ball(b2World &world, float x, float y){
+    Ball(b2World &world, float x, float y, float density = 1.0f){
         b2BodyDef bodyDef;
         bodyDef.position.Set(x / SCALE, y / SCALE);
 
         bodyDef.type = b2_dynamicBody;
+
         body = world.CreateBody(&bodyDef);
 
         b2CircleShape dynamicBall;
@@ -51,7 +53,7 @@ public:
 
 private:
     sf::CircleShape sphere;
-    b2Body* body;
+    b2Body *body;
 };
 
 int main() {
@@ -74,11 +76,26 @@ int main() {
 
     // Creating the Ball in the Scene
 
-    Ball ball(world, 10, 100);
+    Ball ball(world, 100, 305);
+    Ball ball2(world, 500, 200);
 
-    Ball ball2(world, 50, 150);
+    b2BodyDef bodyDef;
+    bodyDef.type = b2_staticBody;
+    bodyDef.position.Set(100,300);
+    b2Body* body = world.CreateBody(&bodyDef);
 
-    // Start the game loop
+    b2PolygonShape staticStartPoint;
+    staticStartPoint.SetAsBox(5.0f,10.0f);
+
+    b2WheelJointDef jointDef;
+    jointDef.Initialize(ball.getBody(), ball2.getBody(), ball.getBody()->GetWorldCenter(), b2Vec2(0,1));
+    jointDef.enableMotor = true;
+    jointDef.maxMotorTorque= 1.0f;
+    jointDef.motorSpeed = 0.1f;
+
+    b2WheelJoint* joint = (b2WheelJoint*)world.CreateJoint(&jointDef);
+
+// Start the game loop
     while(window.isOpen()){
         // Process Events
         sf::Event event{

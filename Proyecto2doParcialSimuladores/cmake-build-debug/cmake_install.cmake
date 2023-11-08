@@ -1,4 +1,4 @@
-# Install script for directory: D:/JettBrains/CLion/Proyecto2doParcialSimuladores
+# Install script for directory: C:/Users/Alumnos/Documents/Proyecto Simuladores P2/simFisica_CEVR/Proyecto2doParcialSimuladores
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,6 +32,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "C:/Users/Alumnos/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -40,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/JettBrains/CLion/Proyecto2doParcialSimuladores/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Alumnos/Documents/Proyecto Simuladores P2/simFisica_CEVR/Proyecto2doParcialSimuladores/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
